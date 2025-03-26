@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/***********************************************
+Landingspagina
+*************************************************/
+
+h1 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: start;
+    margin-left: 11.6em;
+    max-width: 13em;
+}
+
+h2 {
+    color: white;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+}
+
+main section:first-of-type h2 {
+    background: linear-gradient(to right, #FFCF4A, #4AA64C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat, sans-serif;
+    justify-content: center;
+    display: flex;
+    font-size: 5em;
+    margin: 1em;
+    margin-bottom: 0.2em;
+}
+
+
+p {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+}
+
+main section:first-of-type {
+    background-color: #1D1D1B;
+    height: 40em;
+    padding: 5em;
+}
+
+main section:first-of-type a {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    margin-left: 14.3em;
+    margin-top: 8em;
+    text-decoration: none;
+}
+
+main section:first-of-type a:hover {
+    color: #FFCF4A;
+}
+
+main section:first-of-type a img {
+    width: 1em;
+    padding-top: 2px;
+}
+
+main section:first-of-type a:hover img {
+    filter: brightness(0) saturate(100%) invert(76%) sepia(50%) saturate(400%) hue-rotate(0deg);
+}
+
+
+
+/***********************************************
+Header
+*************************************************/
+
+header ul {
+    background-color: #1D1D1B;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+header li {
+    margin: 1.5em;
+    margin-right: 3em;
+}
+
+header img {
+    width: 5em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1D1D1B;
+
+}
+
+header nav img {
+    width: 5em; 
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* header a:hover {
+    color: #FFCF4A;
+    text-decoration: underline;
+} */
+
+header a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    padding-bottom: 10px; 
+}
+
+header a::after {
+    content: ""; 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px; 
+    background-color: #FFCF4A;
+    transition: width 0.25s ease-in-out; 
+}
+
+header a:hover::after {
+    width: 100%; 
+}
+
+/***********************************************
+2e section (over mij)
+*************************************************/
+
+main section:nth-of-type(2) {
+    background-color: #2F2F2C;
+    padding: 10em;
+}
+
+main section:nth-of-type(2) h2 {
+    margin-bottom: 2em;
+    background: linear-gradient(to right, #FFCF4A, #4AA64C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+main section:nth-of-type(2) p {
+    margin: 2em;
+    margin-left: 0em;
+}
+
+main section:nth-of-type(2) div:nth-of-type(2) img {
+    width: 20em;
+    margin-left: 10em;
+    margin-top: 2em;
+}
+
+main section:nth-of-type(2) article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+main section:nth-of-type(2) div:first-of-type img {
+    width: 2em;
+    margin: 1em;
+    margin-left: 0;
+}
+
+main section:nth-of-type(2) article a {
+    color: #FFCF4A;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0.3em;
+    border: 1px solid #FFCF4A;
+    border-radius: 2em;
+    margin-top: 2em;
+    text-align: center;
+    width: 20em;
+    margin-left: 10em;
+}
+
+main section:nth-of-type(2) div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-of-type(2) article a:hover {
+    color: #4AA64C;
+    border: 1px solid #4AA64C;
+}
+
+/***********************************************
+3e section (skills)
+*************************************************/
+main section:nth-of-type(3) {
+    background-color: #1D1D1B;
+    padding: 4em;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+main section:nth-of-type(3) img {
+    width: 4em;
+}
+
+main section:nth-of-type(3) article:first-of-type img {
+    width: 28em;
+    margin: 0em;
+}
+
+main section:nth-of-type(3) article:nth-of-type(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section:nth-of-type(3) article:nth-of-type(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+main section:nth-of-type(3) article:nth-of-type(3) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+main section:nth-of-type(3) article:nth-of-type(4) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+main section:nth-of-type(3) article:nth-of-type(6) {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+/********************klaar met grid, hieronder gewoon opmaak los van grid*****************************/
+
+main section:nth-of-type(3) article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1.5em;
+}
+
+main section:nth-of-type(3) article img {
+    margin: 1em;
+    margin-top: 5em;
+}
+
+main section:nth-of-type(3) article h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.25em;
+    color: #FFCF4A;
+    margin-bottom: 0.5em;
+}
+
+main section:nth-of-type(3) article p {
+    text-align: center;
+    line-height: 1.3em;
+    width: 16em;
+
+}
+
+main section:nth-of-type(3) {
+    background-image: url('images/test-achtergrond.png'); /* Zorg dat de bestandsnaam en map correct zijn */
+    background-size: cover; /* De afbeelding schaalt mee */
+    background-position: center; /* Centreert de afbeelding */
+    background-repeat: no-repeat; /* Voorkomt herhaling */
+}
+
+
+
+/***********************************************
+4e section (PORTFOLIO)
+*************************************************/
+
+main section:nth-of-type(4) {
+    display: flex;
+    justify-content: center;
+    background-color: #2F2F2C;
+    padding-top: 3em;
+}
+
+main section:nth-of-type(4) h2 {
+    font-size: 2em;
+    margin-bottom: 0em;
+    background: linear-gradient(to right, #FFCF4A, #4AA64C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+
+}
+
+main section:nth-of-type(4) img {
+    width: 22em;
+    margin: 1em;
+}
+
+main section:nth-of-type(4) article {
+    display: flex;
+    justify-content: center;
+}
+
+main section:nth-of-type(4) div {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    gap: 0em; 
+}
+
+main section:nth-of-type(4) div img {
+    width: 100%; 
+    max-width: 20em; 
+}
+
+
+main section:nth-of-type(4) {
+    background-image: url('images/portfolio-wallpaper2.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100%;
+}
+
+main section:nth-of-type(4) {
+    padding: 10em; /* Extra ruimte zodat niets wordt afgesneden */
+    background-size: cover; /* Houdt de afbeelding groot */
+    background-position: center; /* Zorgt dat het gecentreerd blijft */
+}
+
+
+/***********************************************
+FOOTER
+*************************************************/
+
+footer {
+    background-color: #1D1D1B;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+footer h3 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    margin: 1em;
+    margin-left: 0em;
+    margin-top: 3em;
+}
+
+footer p {
+    margin: 0.5em;
+    margin-left: 0em;
+}
+
+footer a {
+    margin: 0.5em;
+    margin-left: 0em;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+}
+
+footer img {
+    width: 10em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 3em;
+    margin-left: 14em;
+    padding-top: 0.25em;
+}
+
+footer section:nth-of-type(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-items: start;
+}
+
+footer section:nth-of-type(3) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    align-items: start;
+}
+
+footer section:last-of-type {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-content: center;
+}
+
+
+
+footer section:last-of-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2em 0;
+}
+
+footer section:last-of-type p {
+    padding: 0em;
+    margin: 0em;
+}
+
+footer div {
+    max-height: 7em;
+}
+
+footer div img {
+    width: 2em;
+    margin-left: 0em;
+}
+
+footer div img:first-of-type {
+    margin-left: 2.75em;
+}
