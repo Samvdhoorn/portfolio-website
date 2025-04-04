@@ -349,7 +349,7 @@ main section:nth-of-type(4) div img {
 
 
 main section:nth-of-type(4) {
-    background-image: url('images/portfolio-wallpaper2.png'); 
+    background-image: url('images/portfolio-wallpaper.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
