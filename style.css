@@ -482,6 +482,7 @@ footer div img:first-of-type {
     margin: 0.5em;
 }
 
+
 /**********************************************************************************************
 eerste section, landingspagina
 ***********************************************************************************************/
@@ -500,6 +501,7 @@ eerste section, landingspagina
 .hema-body main section:first-of-type div {
     max-width: 50%;
     padding-right: 5em;
+
 }
 
 .hema-body main section:first-of-type img {
@@ -510,12 +512,17 @@ eerste section, landingspagina
 .hema-body main section:first-of-type h1 {
     font-weight: 400;
     font-size: 2em;
+    margin-left: 0em;
+    margin-bottom: 2em;
 }
 
-.hema-body main section:first-of-type h2 {
-    color: #e81111;
-    font-weight: 400;
-    font-size: 1.5em;
+
+.hema-body main section:first-of-type div img {
+    width: 3em;
+}
+
+.hema-body main section:first-of-type p {
+    margin-left: 0em;
 }
 
 /**********************************************************************************************
@@ -523,7 +530,7 @@ tweede section
 ***********************************************************************************************/
 
 .hema-body main section:nth-of-type(2) {
-    background-color: gray
+    background-color: #a6bed1;
 }
 
 .hema-body main section:nth-of-type(2) h3 {
@@ -535,6 +542,7 @@ tweede section
 
 .hema-body main section:nth-of-type(2) article img {
     width: 26em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hema-body main section:nth-of-type(2) {
@@ -555,6 +563,12 @@ tweede section
 .hema-body main section:nth-of-type(2) article p {
    max-width: 100%;
    word-wrap: break-word;
+   color: #2e4265;
+   font-weight: 400;
+}
+
+.hema-body main section:nth-of-type(2) article h3 {
+    color: #2e4265;
 }
 
 .hema-body main section:nth-of-type(2) article {
@@ -576,7 +590,7 @@ derde section
 ***********************************************************************************************/
 
 .hema-body main section:nth-of-type(3) {
-    background-color: #ebebeb;
+    background-color: white;
 }
 
 .hema-body main section:nth-of-type(3) {
@@ -584,20 +598,65 @@ display: flex;
 flex-direction: column;
 }
 
-.hema-body main section:nth-of-type(3) article:first-of-type img {
+.hema-body main section:nth-of-type(3) h3 {
+    font-size: 1.5em;
+}
+
+.hema-body main section:nth-of-type(3) article:nth-of-type(2) img {
     padding: 1em;
     width: 36em;
+    margin-top: 1em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     
 }
 
-.hema-body main section:nth-of-type(3) article:first-of-type p {
+.hema-body main section:nth-of-type(3) article:nth-of-type(2) p {
     width: fit-content;
-    margin: 6em;
+    margin: 4em;
     margin-top: 1em;
+    text-align: left;
    
+}
+
+.hema-body main section:nth-of-type(3) article:nth-of-type(2) a {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 1em;
+    background-color: #1D1D1B;
+    border-radius: 2em;
+    text-align: center;
+    width: 20em;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.hema-body main section:nth-of-type(3) article:nth-of-type(2) a:hover {
+    color: #FFCB05;
 }
 
 .hema-body main section:nth-of-type(3) h3 {
     color: #3a3a3a;
     margin-bottom: 2em;
+}
+
+.hema-body main section:nth-of-type(3) article:first-of-type {
+    margin-bottom: 6em;
+}
+
+.hema-body main section:nth-of-type(3) article:first-of-type div {
+    display: flex;
+    flex-direction: row;
+}
+
+.hema-body main section:nth-of-type(3) article:first-of-type p {
+    text-align: left;
+    width: 26em;
+}
+
+.hema-body main section:nth-of-type(3) article:first-of-type img {
+    margin-right: 3em;
+    width: 52em;
+    
 }
