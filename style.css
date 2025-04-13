@@ -28,7 +28,7 @@ h2 {
     font-family: Montserrat, sans-serif;
 }
 
-main section:first-of-type h2 {
+.index-body main section:first-of-type h2 {
     background: linear-gradient(to right, #FFCF4A, #4AA64C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -99,23 +99,23 @@ header ul {
 header li {
     margin: 1.5em;
     margin-right: 3em;
+    margin-top: 3em;
 }
 
-header img {
-    width: 5em;
-}
+
 
 header nav {
     display: flex;
     justify-content: space-between;
     background-color: #1D1D1B;
+    padding-bottom: 1em;
 
 }
 
 header nav img {
-    width: 5em; 
-    margin-left: 2em;
-    margin-top: 1em;
+    width: 9em; 
+    margin-left: 3em;
+    margin-top: 1.5em;
 }
 
 header a {
@@ -149,6 +149,7 @@ header a::after {
 header a:hover::after {
     width: 100%; 
 }
+
 
 /***********************************************
 2e section (over mij)
@@ -295,12 +296,13 @@ main section:nth-of-type(3) article p {
 
 }
 
+/* 
 main section:nth-of-type(3) {
-    background-image: url('images/test-achtergrond.png'); /* Zorg dat de bestandsnaam en map correct zijn */
-    background-size: cover; /* De afbeelding schaalt mee */
-    background-position: center; /* Centreert de afbeelding */
-    background-repeat: no-repeat; /* Voorkomt herhaling */
-}
+    background-image: url('images/test-achtergrond.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+} */
 
 
 
@@ -328,6 +330,10 @@ main section:nth-of-type(4) h2 {
 main section:nth-of-type(4) img {
     width: 22em;
     margin: 1em;
+}
+
+main section:nth-of-type(4) img:hover {
+    transform: scale(1.05);
 }
 
 main section:nth-of-type(4) article {
@@ -401,7 +407,7 @@ footer section {
 }
 
 footer img {
-    width: 10em;
+    width: 17em;
     grid-column-start: 1;
     grid-column-end: 2;
     margin: 3em;
@@ -454,4 +460,129 @@ footer div img {
 
 footer div img:first-of-type {
     margin-left: 2.75em;
+}
+
+
+/***********************************************************************************************************************************************************************************************
+2e html - HEMA
+************************************************************************************************************************************************************************************************/
+
+.hema-body h1, h2 {
+    color: black;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    margin: 0.5em;
+}
+
+.hema-body main p {
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    margin: 0.5em;
+}
+
+/**********************************************************************************************
+eerste section, landingspagina
+***********************************************************************************************/
+
+
+.hema-body main section:first-of-type {
+    background-color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 5em; 
+    flex-direction: row-reverse;
+    padding-left: 0em;
+}
+
+.hema-body main section:first-of-type div {
+    max-width: 50%;
+    padding-right: 5em;
+}
+
+.hema-body main section:first-of-type img {
+    width: 46em;
+    margin: 0em;
+}
+
+.hema-body main section:first-of-type h1 {
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.hema-body main section:first-of-type h2 {
+    color: #e81111;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+/**********************************************************************************************
+tweede section
+***********************************************************************************************/
+
+.hema-body main section:nth-of-type(2) {
+    background-color: gray
+}
+
+.hema-body main section:nth-of-type(2) h3 {
+    font-family: Montserrat, sans-serif;
+    color: white;
+    padding-bottom: 1em;
+    
+}
+
+.hema-body main section:nth-of-type(2) article img {
+    width: 26em;
+}
+
+.hema-body main section:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5em;
+
+}
+
+.hema-body main section:nth-of-type(2) article {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+}
+
+.hema-body main section:nth-of-type(2) article p {
+   max-width: 100%;
+   word-wrap: break-word;
+}
+
+/**********************************************************************************************
+derde section
+***********************************************************************************************/
+
+.hema-body main section:nth-of-type(3) {
+    background-color: #ebebeb;
+}
+
+.hema-body main section:nth-of-type(3) {
+display: flex;
+flex-direction: column;
+}
+
+.hema-body main section:nth-of-type(3) article:first-of-type img {
+    padding: 1em;
+    width: 36em;
+    
+}
+
+.hema-body main section:nth-of-type(3) article:first-of-type p {
+    width: fit-content;
+    margin: 6em;
+    margin-top: 1em;
+   
+}
+
+.hema-body main section:nth-of-type(3) h3 {
+    color: #3a3a3a;
+    margin-bottom: 2em;
 }
