@@ -108,14 +108,15 @@ header nav {
     display: flex;
     justify-content: space-between;
     background-color: #1D1D1B;
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
 
 }
 
 header nav img {
-    width: 9em; 
+    width: 7em; 
+    height: 100%;
     margin-left: 3em;
-    margin-top: 1.5em;
+    margin-top: 2em;
 }
 
 header a {
@@ -407,7 +408,7 @@ footer section {
 }
 
 footer img {
-    width: 17em;
+    width: 12em;
     grid-column-start: 1;
     grid-column-end: 2;
     margin: 3em;
@@ -555,6 +556,20 @@ tweede section
    max-width: 100%;
    word-wrap: break-word;
 }
+
+.hema-body main section:nth-of-type(2) article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 26em; 
+}
+
+.hema-body main section:nth-of-type(2) article p {
+    width: 100%; 
+    text-align: left;
+    padding-left: 1em;
+}
+
 
 /**********************************************************************************************
 derde section
