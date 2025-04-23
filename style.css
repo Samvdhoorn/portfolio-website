@@ -331,6 +331,7 @@ main section:nth-of-type(4) h2 {
 main section:nth-of-type(4) img {
     width: 22em;
     margin: 1em;
+    border-radius: 1em;
 }
 
 main section:nth-of-type(4) img:hover {
@@ -356,7 +357,7 @@ main section:nth-of-type(4) div img {
 
 
 main section:nth-of-type(4) {
-    background-image: url('images/portfolio-wallpaper.png'); 
+    background-image: url('images/portfolio-wallpaper5.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -624,7 +625,7 @@ flex-direction: column;
     font-weight: 500;
     text-decoration: none;
     padding: 1em;
-    background-color: #1D1D1B;
+    background-color: #a6bed1;
     border-radius: 2em;
     text-align: center;
     width: 20em;
@@ -633,7 +634,8 @@ flex-direction: column;
 }
 
 .hema-body main section:nth-of-type(3) article:nth-of-type(2) a:hover {
-    color: #FFCB05;
+    color: #2e4265;
+    transform: scale(1.05);
 }
 
 .hema-body main section:nth-of-type(3) h3 {
@@ -660,3 +662,9 @@ flex-direction: column;
     width: 52em;
     
 }
+
+
+/**************************************************************************************************************************************************
+BOEKENZOEKER
+***************************************************************************************************************************************************/
+
