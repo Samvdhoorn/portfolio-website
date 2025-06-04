@@ -668,3 +668,52 @@ flex-direction: column;
 BOEKENZOEKER
 ***************************************************************************************************************************************************/
 
+.boekenzoeker-body main section:first-of-type div img {
+    width: 7em;
+    margin-bottom: 0.25em;
+}
+
+.boekenzoeker-body main section:last-of-type article:nth-of-type(2) img {
+    padding: 0em;
+}
+
+/**************************************************************************************************************************************************
+TRAVELDEX
+***************************************************************************************************************************************************/
+.traveldex-body main section:first-of-type div img {
+    width: 5em;
+}
+
+.traveldex-body main section:last-of-type article:nth-of-type(1) img {
+    height: 32em;
+    width: 32em;
+}
+
+.traveldex-body main section:last-of-type article:nth-of-type(2) img {
+    width: 50em;
+}
+
+.traveldex-body main section:last-of-type article:nth-of-type(2) {
+   padding-left: 7em;
+   padding-right:7em;
+}
+
+.traveldex-body main section:last-of-type article:last-of-type img {
+    width: 50em;
+    margin-top: 0em;
+}
+
+.traveldex-body main section:last-of-type article:last-of-type h3 {
+    margin-bottom: 0em;
+    margin-top: 2em;
+}
+
+.traveldex-body main section:last-of-type article:nth-of-type(2) p:last-of-type {
+    margin-top: 3em;
+}
+
+.traveldex-body main section:nth-of-type(3) article:nth-of-type(2) a  {
+    margin-top: 0em;
+    margin-bottom: 2em;
+}
+
