@@ -677,6 +677,19 @@ BOEKENZOEKER
     padding: 0em;
 }
 
+/* .boekenzoeker-body main section:nth-of-type(2) {
+    background-color: #83B4E1;
+}
+
+.boekenzoeker-body main section:nth-of-type(2) article p {
+    color: white;
+}
+
+.boekenzoeker-body main section:nth-of-type(2) article h3 {
+    color: white;
+} */
+
+
 /**************************************************************************************************************************************************
 TRAVELDEX
 ***************************************************************************************************************************************************/
@@ -717,3 +730,44 @@ TRAVELDEX
     margin-bottom: 2em;
 }
 
+.traveldex-body main section:nth-of-type(2) {
+    background-color: #2F2572;
+}
+
+.traveldex-body main section:nth-of-type(2) article p {
+    color: white;
+}
+
+.traveldex-body main section:nth-of-type(2) article h3 {
+    color: white;
+}
+
+
+/**************************************************************************************************************************************************
+3D
+***************************************************************************************************************************************************/
+
+.jungletemple-body main section:first-of-type {
+    background-color: #1D1D1B;
+}
+
+.jungletemple-body main section:first-of-type h1 {
+    color: lightgray;
+}
+
+.jungletemple-body main section:first-of-type div p {
+    color: lightgray;
+}
+
+.jungletemple-body main section:nth-of-type(2) {
+    background-color: #304529;
+}
+
+
+.jungletemple-body main section:nth-of-type(2) article p {
+    color: lightgrey;
+}
+
+.jungletemple-body main section:nth-of-type(2) article h3 {
+    color: lightgray;
+}
