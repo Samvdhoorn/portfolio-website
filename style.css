@@ -752,7 +752,7 @@ TRAVELDEX
 }
 
 .jungletemple-body main section:first-of-type h1 {
-    color: lightgray;
+    color: white;
 }
 
 .jungletemple-body main section:first-of-type div p {
@@ -770,4 +770,28 @@ TRAVELDEX
 
 .jungletemple-body main section:nth-of-type(2) article h3 {
     color: lightgray;
+}
+
+.jungletemple-body main section:nth-of-type(3) {
+    background-color: #1D1D1B;
+}
+
+.jungletemple-body main section:nth-of-type(3) p {
+    color: white
+}
+
+.jungletemple-body main section:nth-of-type(3) h3 {
+    color: white;
+}
+
+.jungletemple-body main section:nth-of-type(3) article:first-of-type img {
+    max-width: 30em;
+}
+
+.jungletemple-body main section:nth-of-type(3) article:nth-of-type(2) img {
+    box-shadow: none;
+}
+
+.jungletemple-body footer {
+    background-color: #304529;
 }
