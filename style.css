@@ -677,6 +677,17 @@ BOEKENZOEKER
     padding: 0em;
 }
 
+.boekenzoeker-body main section:last-of-type article:last-of-type div img {
+    width: 50em;
+    margin-top: 1em;
+}
+
+.boekenzoeker-body main section:last-of-type article:last-of-type div p {
+    display: flex;
+    margin-left: 18em;
+    margin-top: 3em;
+}
+
 /* .boekenzoeker-body main section:nth-of-type(2) {
     background-color: #83B4E1;
 }
@@ -742,6 +753,13 @@ TRAVELDEX
     color: white;
 }
 
+.traveldex-body main section:last-of-type article:nth-of-type(2) a {
+    background-color: #2F2572;
+}
+
+.traveldex-body main section:last-of-type article:nth-of-type(2) a:hover {
+    color: #c1b6ff;
+}
 
 /**************************************************************************************************************************************************
 3D
@@ -794,4 +812,14 @@ TRAVELDEX
 
 .jungletemple-body footer {
     background-color: #304529;
+}
+
+.jungletemple-body main section:nth-of-type(3) article:nth-of-type(2) div:nth-of-type(2) {
+/* display: grid; */
+/* grid-template-columns: 1fr 1fr; */
+/* grid-template-rows: 1fr 1fr; */
+}
+
+.jungletemple-body main section:nth-of-type(3) article:nth-of-type(2) img {
+/* width: 30em; */
 }
